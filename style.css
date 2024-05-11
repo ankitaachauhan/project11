@@ -1,0 +1,47 @@
+#cont1
+{
+
+    display: flex;
+    margin:27%;
+    background-color:pink;
+    flex-wrap: wrap;
+    padding-right:250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+   
+}
+#cont2
+{
+    display: flex;
+    margin: 5%;
+    background-color:white;
+    flex-wrap: wrap;
+}
+#cont2 h1
+{
+    margin: 0%;
+}
+form input
+{
+    padding:10px;
+    margin: 10px;
+
+}
+textarea
+{
+    display: flex;
+    margin: 10px;
+    
+}
+#cont3 input
+{
+    background-color: hotpink; 
+    margin-left: 25px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#cont3 input:hover
+{
+    color: hotpink;
+}
