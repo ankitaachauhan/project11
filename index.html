@@ -3,26 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Designing an Appealing content Us Form</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="cont1">
-        <div id="cont2"> 
-            <form>
-            <h1>Contact Us form</h1><br>
-            <input type="text" name="name" placeholder="first name">
-            <input type="text" name="name" placeholder="last name"><br>
-            <input type="email" name="email" placeholder="email address">
-            <input type="text" name="websitname" placeholder="website name"><br>
-            <textarea name="text" placeholder="textarea"></textarea>
-            <br> 
-            </form>
+    <div class="container">
+        <div class="text">
+            Contact Us form
+         </div>
+        <form action="somthing.py">    
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label for="">First name</label>
+                </div>   
+                <div class="input-data"> 
+                    <input type="text" name="lastusername" required>
+                    <div class="underline"></div>
+                    <label for="">last name</label>
+                </div>    
+            </div>
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="email" name="email" required>
+                    <div class="underline"></div>  
+                    <label for="">email Address</label>
+                </div>
+                    <div class="input-data">
+                        <input type="text" name="Website name" required>
+                        <div class="underline"></div>
+                        <label for="">Website name</label>
+                    </div>
+            </div>
+            <div class="form-row">
+                <div class="input-data textarea">
+                    <textarea cols="60" rows="8" required></textarea>
+                    <div class="underline"></div>
+                    <label for="">Write Your Message</label>
+                    <br>
+                    <div class="form-row submit-btn">
+                        <div class="input-data">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                </div>
             
-        </div>
-        <div id="cont3">
-        <input type="submit" name="submit" placeholder="submit">
-        </div>
+            </div>
+        </form>    
     </div>
 </body>
 </html>
